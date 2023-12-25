@@ -7,8 +7,13 @@
       "Codebase": {
         "$path": "src/Codebase"
       },
+
       "Packages": {
         "$path": "src/Packages"
+      },
+
+      "Tests": {
+        "$path": "src/tests"
       }
     },
 
