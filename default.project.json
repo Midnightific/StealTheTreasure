@@ -1,17 +1,14 @@
 {
-  "name": "temp",
+  "name": "StealTheTreasure",
   "tree": {
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "Shared": {
-        "$path": "src/shared"
-      }
-    },
-
-    "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
+      "Codebase": {
+        "$path": "src/Codebase"
+      },
+      "Packages": {
+        "$path": "src/Packages"
       }
     },
 
@@ -58,9 +55,9 @@
           0
         ],
         "Brightness": 2,
-        "GlobalShadows": true,
+        "GlobalShadows": false,
         "Outlines": false,
-        "Technology": "Voxel"
+        "Technology": "ShadowMap"
       }
     },
     "SoundService": {
